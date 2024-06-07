@@ -1,0 +1,26 @@
+body{
+    display: flex;
+
+    justify-content: center;
+}
+.form-position{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+.space{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+    
+}
+label{
+    padding: 0.8em;
+}
+a{
+    padding: 0.8em;
+}

@@ -1,0 +1,12 @@
+.position{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.sizeimg{
+    height: 11em;
+    width: 13em;
+}

@@ -1,0 +1,36 @@
+body{
+    display: flex;
+
+    justify-content: center;
+}
+
+.space{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+    
+    padding: 1.4em;
+}
+.button-position{
+    padding-left: 1.4em;
+}
+.form-position{
+    padding: 3em;
+}
+.img-width{
+
+    width: 15em;
+    height: 6em;
+}
+.div-img{
+    display: flex;
+    justify-content: center;
+}
+.displaybutton{
+    display: flex;
+    
+    justify-content: center;
+}

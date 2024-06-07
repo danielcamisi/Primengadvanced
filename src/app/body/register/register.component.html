@@ -1,0 +1,21 @@
+<p-card class="form-position">
+          
+    
+    <div class="space">
+        <img style="width: 14em; height: 6em;"
+        src="./assets/img/logoorus.png">
+        <label for="name" class="block">Crie um nome de Usuário</label>
+        <input type="text" pInputTextarea placeholder="Nome de usuário">
+        <label for="pword" class="block">Crie uma Senha</label>
+        <input type="password" pInputTextarea placeholder="Senha">
+        <label for="namec" class="block">Nome completo</label>
+        <input type="text" pInputTextarea placeholder="Nome">
+        <label for="e-mail" class="block">E-mail</label>
+        <input type="text" pInputTextarea placeholder="E-mail">
+        <a [routerLink]="['/login']">
+            <p-button class="displaybutton" label="Cadastrar" ></p-button>
+        </a>
+        
+    </div>
+</p-card>
+<app-footer></app-footer>

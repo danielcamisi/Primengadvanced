@@ -1,0 +1,17 @@
+.of-position{
+    display: flex;
+
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1.4em;
+}
+.div-position{
+
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.4em;
+}

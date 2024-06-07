@@ -1,0 +1,38 @@
+.classae{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 9em;
+    padding-right: 6em;
+    padding-bottom: 6em;
+}
+.size-of-img{
+    width: 10em;
+    height: 4em;
+}
+span{
+    color:#ac39ea;
+}
+.pcard-class-size{
+    width: 30em;
+    height: 17em;
+}
+.pcard-class-organization{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0.4em;
+}
+.funcionaplmds{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+}
+.p-card-this{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:2em;
+}

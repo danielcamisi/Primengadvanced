@@ -1,0 +1,19 @@
+<p-card class="form-position">
+    <div class="div-img">
+        <img class="img-width"
+            src="./assets/img/logoorus.png">
+    </div>
+    <div class="space">
+        <label for="name" class="block">Usuário</label>
+        <input type="text" pInputTextarea placeholder="Nome de usuário" [(ngModel)]="name">
+    </div>
+    <div class="space">
+        <label for="pword" class="block">Senha</label>
+        <input type="password" pInputTextarea placeholder="Senha" [(ngModel)]="pword">
+    </div>
+    <div class="space">
+        <a [routerLink]="['/register']"> Esqueci minha senha </a>
+    </div>
+    <p-button class="displaybutton" label="Logar" (click)="showDialog()"></p-button>
+</p-card>
+<app-footer></app-footer>

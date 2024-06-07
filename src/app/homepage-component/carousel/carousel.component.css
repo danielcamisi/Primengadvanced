@@ -1,0 +1,16 @@
+body{
+    flex-direction: column;
+    
+}
+.cardposition{
+    display: flex;
+    justify-self: auto;
+}
+.carrosel{
+    border: solid black 0.4em;
+    border-radius: 0.7em;
+    justify-self: auto;
+}
+span{
+    color:#7030a0;
+}

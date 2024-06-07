@@ -1,0 +1,30 @@
+<p-card class="of-position">
+    <div>
+        <input type="text" #taskKeyword placeholder="Digite uma palavra-chave">
+        <button (click)="onSearch(taskKeyword.value)">Pesquisar</button>
+      </div>
+      
+      <div *ngIf="showtable" class="task-details">
+        <h2>Tarefas Encontradas</h2>
+        <div *ngFor="let tarefa of searchedTarefa">
+          <h3>Detalhes da Tarefa</h3>
+          <p><strong>ID:</strong> {{ tarefa.tarefa.id }}</p>
+          <p><strong>Descrição:</strong> {{ tarefa.tarefa.desc }}</p>
+          <p><strong>Unidade de Medida:</strong> {{ tarefa.tarefa.unidade_de_medida }}</p>
+          <p *ngIf="tarefa.tarefa.USTIBB"><strong>USTIBB:</strong> {{ tarefa.tarefa.USTIBB }}</p>
+          <p *ngIf="tarefa.tarefa.complexidade_baixa_desc">
+            <strong>Complexidade Baixa:</strong> {{ tarefa.tarefa.complexidade_baixa_desc }} 
+            (USTIBB: {{ tarefa.tarefa.complexidade_baixa_USTIBB }})
+          </p>
+          <p *ngIf="tarefa.tarefa.complexidade_media_desc">
+            <strong>Complexidade Média:</strong> {{ tarefa.tarefa.complexidade_media_desc }} 
+            (USTIBB: {{ tarefa.tarefa.complexidade_media_USTIBB }})
+          </p>
+          <p *ngIf="tarefa.tarefa.complexidade_Alta_desc">
+            <strong>Complexidade Alta:</strong> {{ tarefa.tarefa.complexidade_Alta_desc }} 
+            (USTIBB: {{ tarefa.tarefa.complexidade_Alta_USTIBB }})
+          </p>
+          <hr>
+        </div>
+      </div>
+</p-card>
